@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Multimedia</string>
+    <string name="texto_pantalla2">pantalla2</string>
+    <string name="texto_pantalla3">Video</string>
+    <string name="texto_pantalla1">Home</string>
+    <string name="heading_of_activity">Video</string>
+
+    <string name="nombre">Descripción</string>
+    <string name="desc">VideoView class of Kotlin is used to display video files in the android application.\n
+        This class supports the 3gp and MP4 video formats. \n
+        VideoView class is capable of playing a video file either\n
+        from local storage, specific URL or from a resource file. \n
+        The drawback of this class is that it does not retain the full state \n
+        of the video file if the application goes into the background it means \n
+        that the current play position, play state, or any kind of subtitle track can not be restored.
+¿Qué es MediaPlayer?
+MediaPlayer es una API de Android que nos permite reproducir contenido multimedia, ya sea video o audio. Podemos reproducir, tanto archivos almacenados en el dispositivo como desde un flujo de datos que llega a través de Internet.
+
+Como conceptos básicos tenemos:
+
+La clase MediaPlayer que es la API principal para reproducir sonido y vídeo.
+
+La clase AudioManager que administra fuentes y salidas de audio en el dispositivo.
+    </string>
+
+</resources>
