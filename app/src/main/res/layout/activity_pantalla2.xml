@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,7 +16,8 @@
         android:layout_gravity="center_vertical"
         android:text="Play"
         tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="272dp" />
+        tools:layout_editor_absoluteY="272dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonPause"
@@ -26,7 +27,8 @@
         android:layout_gravity="center_vertical"
         android:text="Pause"
         tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="275dp" />
+        tools:layout_editor_absoluteY="275dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonStop"
@@ -36,5 +38,43 @@
         android:layout_gravity="center_vertical"
         android:text="Stop"
         tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="275dp" />
-</LinearLayout>
+        tools:layout_editor_absoluteY="275dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageButton
+        android:id="@+id/buttonPlayy"
+        android:layout_width="147dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.3"
+        android:src="@drawable/play"
+        android:text="Stop"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+
+    <ImageButton
+        android:id="@+id/buttonStoop"
+        android:layout_width="146dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.3"
+        android:src="@drawable/stop"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageButton
+        android:id="@+id/buttonPausa"
+        android:layout_width="252dp"
+        android:layout_height="221dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.3"
+        android:src="@drawable/pausa"
+        android:text="Stop"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="6dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

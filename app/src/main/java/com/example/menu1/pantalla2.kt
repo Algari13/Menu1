@@ -23,7 +23,7 @@ class pantalla2 : AppCompatActivity() {
         buttonPause = findViewById(R.id.buttonPause)
         buttonStop = findViewById(R.id.buttonStop)
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.audio1)
+        mediaPlayer = MediaPlayer.create(this, R.raw.movie)
 
         setOnClickListeners(this)
     }
@@ -41,7 +41,7 @@ class pantalla2 : AppCompatActivity() {
 
         buttonStop.setOnClickListener {
             mediaPlayer.stop()
-            mediaPlayer = MediaPlayer.create(context, R.raw.audio1)
+            mediaPlayer = MediaPlayer.create(context, R.raw.movie)
             Toast.makeText(context, "Parando...", Toast.LENGTH_SHORT).show()
         }
     }
